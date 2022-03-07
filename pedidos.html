@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Pedidos</title>
+
+    <link rel="icon" type="image/x-icon" href="./img/sweet-galaxy-icon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html">
+                <img src="./img/sweet-galaxy.png" alt="" width="25%" height="100%"
+                    class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html"><i class="bi bi-house me-3"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./sabores.html">Sabores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pedidos.html">Pedidos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./administrador.html">Administrador</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!-- Background image -->
+    <section class="container-fluid py-5 mb-5 background-image">
+        <div class="container py-5">
+            <div class="row justify-content-start">
+                <div class="col-lg-8 text-center text-lg-start">
+                    <h1 class="display-1  text-color mb-4"><b>Realiza tus pedidos fácilmente</b></h1>
+                    <h2 class=" text-black">Dale un pedacito de felicidad a tu vida</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Background image -->
+
+
+
+    <section class="container py-4">
+
+        <h1 class="text-center text-color">Selecciona el sabor del pastel</h1>
+        <hr>
+
+        <div class="row row-cols-1 row-cols-md-6 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./img/pastel-chocolate.jpg" class="card-img-top" alt="Pastel chocolate" />
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-color">Chocolate</h5>
+                        <hr>
+                        <div class="form-check form-switch">
+                            <input class="form-check-input " type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                            <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./img/pastel-vainilla.jpg" class="card-img-top" alt="Pastel vainilla" />
+                    <div class="card-body">
+                        <h5 class="card-title text-color">Vainilla</h5>
+                        <hr>
+                        <div class="form-check form-switch">
+                            <input class="form-check-input " type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                            <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./img/pastel-fresa.jpg" class="card-img-top" alt="Pastel fresa" />
+                    <div class="card-body">
+                        <h5 class="card-title text-color">Fresa</h5>
+                        <hr>
+                        <div class="form-check form-switch">
+                            <input class="form-check-input " type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                            <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./img/pastel-tres-leches.jpg" class="card-img-top" alt="Pastel Tres leches" />
+                    <div class="card-body">
+                        <h5 class="card-title text-color">Tres leches</h5>
+                        <hr>
+                        <div class="form-check form-switch">
+                            <input class="form-check-input " type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                            <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./img/pastel-red-velvet.jpg" class="card-img-top" alt="Pastel Red velvet" />
+                    <div class="card-body">
+                        <h5 class="card-title text-color">Red velvet</h5>
+                        <hr>
+                        <div class="form-check form-switch">
+                            <input class="form-check-input " type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                            <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./img/pastel-zanahoria.jpg" class="card-img-top" alt="Pastel zanahoria" />
+                    <div class="card-body">
+                        <h5 class="card-title text-color">Zanahoria</h5>
+                        <hr>
+                        <div class="form-check form-switch">
+                            <input class="form-check-input " type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                            <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./img/pasteles.jpg" class="card-img-top" alt="Pasteles" />
+                    <div class="card-body">
+                        <h5 class="card-title text-color">Sabor especiales</h5>
+                        <div class="form-check form-switch">
+                            <input class="form-check-input " type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                            <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h1 class="text-center text-color">Selecciona el adorno</h1>
+        <hr>
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./img/pastel-frutas.jpg" class="card-img-top" alt="Pastel chocolate" />
+                    <div class="card-body">
+                        <h5 class="card-title text-color">Frutas</h5>
+                        <hr>
+                        <div class="form-check form-switch">
+                            <input class="form-check-input " type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                            <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./img/pastel-fondant.jpg" class="card-img-top" alt="Pastel vainilla" />
+                    <div class="card-body">
+                        <h5 class="card-title text-color">Fondant</h5>
+                        <hr>
+                        <div class="form-check form-switch">
+                            <input class="form-check-input " type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                            <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./img/pastel-betun.jpg" class="card-img-top" alt="Pastel fresa" />
+                    <div class="card-body">
+                        <h5 class="card-title text-color">Betun</h5>
+                        <hr>
+                        <div class="form-check form-switch">
+                            <input class="form-check-input " type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                            <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./img/pastel-chispas.jpg" class="card-img-top" alt="Pastel Tres leches" />
+                    <div class="card-body">
+                        <h5 class="card-title text-color">Chispas / semillas</h5>
+                        <hr>
+                        <div class="form-check form-switch">
+                            <input class="form-check-input " type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                            <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class=" p-5 text-center fondo-jumbotron">
+        <div class="container-fluid px-5 my-5">
+            <div class="row justify-content-center">
+                <div class="col-xl-10">
+                    <div class="card border-0 rounded-3 shadow-lg overflow-hidden">
+                        <div class="card-body p-0">
+                            <div class="row g-0">
+                                <div class="col-sm-6 d-none d-sm-block bg-image"></div>
+                                <div class="col-sm-6 p-4">
+                                    <div class="text-center">
+                                        <div class="h3 fw-light text-color">Haz tu pedido</div>
+                                        <p class="mb-4 text-muted">Favor de llenar todos los campos<span
+                                                class="asterisco">*</span></p>
+                                    </div>
+
+                                    <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+
+                                        <!-- Nombre-->
+                                        <div class="form-floating mb-3">
+                                            <input class="form-control" id="name" type="text" placeholder="Name"
+                                                data-sb-validations="required" />
+                                            <label for="name">Nombre completo<span class="asterisco">*</span></label>
+                                            <div class="invalid-feedback" data-sb-feedback="name:required">Name is
+                                                required.</div>
+                                        </div>
+
+                                        <!-- Email -->
+                                        <div class="form-floating mb-3">
+                                            <input class="form-control" id="emailAddress" type="email"
+                                                placeholder="Email Address" data-sb-validations="required,email"
+                                                placeholder="name@example.com" />
+                                            <label for="emailAddress">Correo electrónico<span
+                                                    class="asterisco">*</span></label>
+                                            <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email
+                                                Address is required.</div>
+                                            <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email
+                                                Address Email is not valid.</div>
+                                        </div>
+
+                                        <!--Telefono-->
+                                        <div class="form-floating mb-3">
+                                            <input class="form-control" id="phone" type="number" placeholder="Phone"
+                                                data-sb-validations="required" />
+                                            <label for="phone">Teléfono<span class="asterisco">*</span></label>
+                                            <div class="invalid-feedback" data-sb-feedback="phone:required">Name is
+                                                required.</div>
+                                        </div>
+
+                                        <!-- Dirección-->
+                                        <div class="form-floating mb-3">
+                                            <input class="form-control" id="direccion" type="text"
+                                                placeholder="Direccion" data-sb-validations="required" />
+                                            <label for="direccion">Dirección<span class="asterisco">*</span></label>
+                                            <div class="invalid-feedback" data-sb-feedback="Direccion:required">Name is
+                                                required.</div>
+                                        </div>
+
+                                        <!--Fecha-->
+                                        <div class="form-floating mb-3">
+                                            <input class="form-control" id="fecha" type="date" placeholder="Date"
+                                                data-sb-validations="required" />
+                                            <label for="date">Fecha<span class="asterisco">*</span></label>
+                                        </div>
+
+                                        <p>¿Con dedicación?</p>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                                id="inlineRadio1" value="option1" data-bs-toggle="collapse"
+                                                href="#collapseOne">
+                                            <label class="form-check-label" for="inlineRadio1">Sí</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                                id="inlineRadio2" value="option2" data-bs-toggle="collapse"
+                                                href="#collapseOne">
+                                            <label class="form-check-label" for="inlineRadio2">No</label>
+                                        </div>
+                                        <div id="collapseOne" class="collapse" data-bs-parent="#accordion">
+                                            <label for="exampleDataList" class="form-label">Seleccione la
+                                                dedicatoria</label>
+                                            <input class="form-control" list="datalistOptions" id="exampleDataList"
+                                                placeholder="Seleccionar...">
+                                            <datalist id="datalistOptions">
+                                                <option value="Feliz Cumpleaños">
+                                                <option value="Mis XV años">
+                                                <option value="Nuestra boda">
+                                                <option value="Descripción personal">
+                                            </datalist>
+                                        </div>
+
+
+                                        <br>
+                                        <!-- Message Input -->
+                                        <p>Favor de describir más a detalle su pedido</p>
+                                        <div class="form-floating mb-3">
+
+                                            <textarea class="form-control" id="message" type="text"
+                                                placeholder="Message" style="height: 10rem;"
+                                                data-sb-validations="required"></textarea>
+                                            <label for="message">Comentarios<span class="asterisco">*</span></label>
+                                            <div class="invalid-feedback" data-sb-feedback="message:required">Message is
+                                                required.</div>
+                                        </div>
+
+                                        <!-- Submit button -->
+                                        <div class="d-grid">
+                                            <button class="btn btn-primary" id="submitButton"
+                                                type="submit">Enviar</button>
+                                        </div>
+                                    </form>
+                                    <!-- End of contact form -->
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-muted color-footer mt-3">
+        <div class="container text-center text-md-start mt-5">
+            <div class="row mt-3">
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto text-center mb-4">
+                    <h6 class="text-uppercase text-center fw-bold mb-4">
+                        Contactanos
+                    </h6>
+                    <p><i class="bi bi-envelope me-3"></i>correo@correo.com</p>
+                    <p><i class="bi bi-telephone me-3"></i>123 456 78 90</p>
+                </div>
+
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-3">
+                    <h6 class="text-uppercase text-center fw-bold mb-4">
+                        Sucursal
+                    </h6>
+                    <p><i class="bi bi-geo-alt me-3"></i>AV. Vicente Guerrero, Col. Vicente Guerrero, San Quintín, Baja
+                        California</p>
+                </div>
+
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <h6 class="text-uppercase text-center fw-bold mb-4">
+                        Horario
+                    </h6>
+
+                    <p><i class="bi bi-clock me-3"></i>8 am a 10pm </p>
+
+                    <div>
+                        <a href="https://es-la.facebook.com/" class="me-4 text-reset">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="https://twitter.com/?lang=es" class="me-4 text-reset">
+                            <i class="bi bi-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com/?hl=es-la" class="me-4 text-reset">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="text-center p-4 color-copy">
+            © 2022
+            <a class="text-reset fw-bold" href="./index.html">Pastelería sweet Galaxy</a>
+            Todos los derechos reservados.
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

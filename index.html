@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pastelería Sweet Galaxy</title>
+    <link rel="icon" type="image/x-icon" href="./img/sweet-galaxy-icon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./img/sweet-galaxy.png" alt="" width="25%" height="100%"
+                    class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html"><i class="bi bi-house me-3"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./sabores.html">Sabores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pedidos.html">Pedidos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./administrador.html">Administrador</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="background-image: url('./img/birthday.jpg')">
+                    <div class="carousel-caption text-black">
+                        <h1 class="text-black">Para tus fiestas de Cumpleaños</h1>
+                        <h4>Un pedacito de felicidad</h4>
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image: url('./img/xv-anos.jpg')">
+                    <div class="carousel-caption text-black">
+                        <h1 class="text-color">Para tus XV años</h1>
+                        <h4>Un pedacito de felicidad</h4>
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image: url('./img/boda.jpg')">
+                    <div class="carousel-caption text-black">
+                        <h1 class="text-color">Para tu boda</h1>
+                        <h4>Un pedacito de felicidad</h4>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+
+    <br>
+
+    <!-- Jumbotron -->
+    <section class="p-3 text-center fondo-jumbotron">
+        <div class="row">
+
+            <div class="col-md-7">
+                <img class="img-fluid" src="./img/adornos.jpg" alt="pastel" width="80%">
+            </div>
+
+            <div class="col-md-5">
+                <h1 class="text-color">Bienvenidos a </h1>
+                <img src="./img/sweet-galaxy-logo.png" alt="logo" width="30%" class="d-inline-block align-text-top">
+                <p>Te ofrecemos los mejores sabores, contamos con mas de 15 sucursales en todo el Estado de Baja
+                    California Norte y Sur,
+                    abiertos los 365 dia del año, excelencia por calidad, acompañando cada momento de felicidad.
+                </p>
+                <h3 class="my-3 text-color">Dale un pedacito de felicidad a tu vida</h3>
+                <a class="btn btn-outline-primary" href="./nosotros.html" role="button">Acerca de</a>
+            </div>
+        </div>
+    </section>
+    <!-- Jumbotron -->
+
+    <section class="container py-4">
+
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <a href="sabores.html" class="hover-img">
+                        <img src="./img/sabores.jpg" class="card-img-top" alt="sabores" />
+                    </a>
+                    <div class="card-body">
+                        <hr>
+                        <h5 class="card-title text-color">Sabores / Adornos</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <a href="./pedidos.html" class="hover-img">
+                        <img src="./img/pedidos.jpg" class="card-img-top" alt="Pedidos" />
+                    </a>
+                    <div class="card-body">
+                        <hr>
+                        <h5 class="card-title text-color">Pedido</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-muted color-footer mt-3">
+        <div class="container text-center text-md-start mt-5">
+            <div class="row mt-3">
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto text-center mb-4">
+                    <h6 class="text-uppercase text-center fw-bold mb-4">
+                        Contactanos
+                    </h6>
+                    <p><i class="bi bi-envelope me-3"></i>correo@correo.com</p>
+                    <p><i class="bi bi-telephone me-3"></i>123 456 78 90</p>
+                </div>
+
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-3">
+                    <h6 class="text-uppercase text-center fw-bold mb-4">
+                        Sucursal
+                    </h6>
+                    <p><i class="bi bi-geo-alt me-3"></i>AV. Vicente Guerrero, Col. Vicente Guerrero, San Quintín, Baja
+                        California</p>
+                </div>
+
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <h6 class="text-uppercase text-center fw-bold mb-4">
+                        Horario
+                    </h6>
+
+                    <p><i class="bi bi-clock me-3"></i>8 am a 10pm </p>
+
+                    <div>
+                        <a href="https://es-la.facebook.com/" class="me-4 text-reset">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="https://twitter.com/?lang=es" class="me-4 text-reset">
+                            <i class="bi bi-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com/?hl=es-la" class="me-4 text-reset">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="text-center p-4 color-copy">
+            © 2022
+            <a class="text-reset fw-bold" href="./index.html">Pastelería sweet Galaxy</a>
+            Todos los derechos reservados.
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

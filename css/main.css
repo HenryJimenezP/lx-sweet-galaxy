@@ -1,0 +1,116 @@
+.navbar {
+  background:white;
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 450px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.card {
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
+}
+
+.background-image {
+  background: url(../img/reposteria.jpg) top right no-repeat;
+  background-size: cover;
+  height: 70vh;
+  min-height: 450px;
+}
+
+.background-sabores {
+  background: url(../img/pastel-fondo.jpg) top right no-repeat;
+  background-size: cover;
+  background-position: top;
+    background-repeat: no-repeat;
+  height: 70vh;
+  min-height: 450px;
+}
+
+.background-pastelero {
+  background: url(../img/background-pastel.jpg) top right no-repeat;
+  background-size: cover;
+  background-position: top;
+    background-repeat: no-repeat;
+  height: 70vh;
+  min-height: 450px;
+}
+
+.background-nosotros {
+  background: url(../img/bg-pastel.jpg) top right no-repeat;
+  background-size: cover;
+  background-position: top;
+    background-repeat: no-repeat;
+  height: 70vh;
+  min-height: 450px;
+}
+
+.bg-image {
+  background-image: url('../img/pastel-pedido.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card-fondo{
+  background-color: #FEEAE8;
+}
+
+.card-img-left {
+    width: 45%;
+    background: scroll center url('https://source.unsplash.com/WEQbe2jBg40/414x512');
+    background-size: cover;
+  }
+
+.hover-img {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.hover-img:hover {
+  background-color: white;
+  opacity: 0.5;
+  transition: 0.4;
+}
+
+h5.card-title {
+  text-align: center;
+}
+
+.text-color{
+    color:deeppink;
+}
+
+.asterisco{
+  color: red;
+}
+
+.color-copy{
+  background-color: #F5B7B1;
+}
+
+.color-footer{
+  background-color: #FADBD8;
+}
+
+.size-text{
+  font-size: 3rem;
+  margin: 0;
+}
+
+.size-text .size-moneda{
+  font-size: 0.8rem;
+}
+
+.fondo-jumbotron{
+  background-color: #FEEAE8;
+}
